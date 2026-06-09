@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Office Space Plan – Ashiyana Co-Working</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:Inter,-apple-system,sans-serif;background:#f0f0f0;padding:32px 16px;color:#1a1a1c}
+  h1{font-size:1.3rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;margin-bottom:4px}
+  .subtitle{font-size:.8rem;color:#6b6b73;margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin-bottom:24px}
+  .card{background:#fff;border-radius:12px;padding:16px 18px;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+  .card-label{font-size:.62rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#6b6b73;margin-bottom:6px}
+  .card-value{font-size:1.55rem;font-weight:700;color:#1a1a1c;line-height:1.1}
+  .card-sub{font-size:.75rem;color:#6b6b73;margin-top:3px}
+  .card.highlight{background:#1a1a1c;color:#fff}
+  .card.highlight .card-label{color:rgba(255,255,255,.5)}
+  .card.highlight .card-value{color:#fff}
+  .card.highlight .card-sub{color:rgba(255,255,255,.55)}
+  .section-title{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#6b6b73;margin:24px 0 10px}
+  table{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.07)}
+  th{background:#1a1a1c;color:#fff;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;padding:10px 14px;text-align:left}
+  td{padding:10px 14px;font-size:.82rem;border-bottom:1px solid #f0f0f0}
+  tr:last-child td{border-bottom:none}
+  tr:hover td{background:#fafafa}
+  .tag{display:inline-block;padding:2px 8px;border-radius:20px;font-size:.65rem;font-weight:700;letter-spacing:.06em}
+  .tag-office{background:#e8f4e8;color:#2d7a2d}
+  .tag-support{background:#e8eef8;color:#2d4d8a}
+  .tag-amenity{background:#fef3e2;color:#a05a00}
+  .tag-service{background:#f5e8f8;color:#6a2d8a}
+  .floor-wrap{background:#fff;border-radius:12px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.07);margin-top:8px;overflow-x:auto}
+  svg text{font-family:Inter,-apple-system,sans-serif}
+  .legend{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+  .legend-item{display:flex;align-items:center;gap:6px;font-size:.72rem;color:#444}
+  .legend-dot{width:12px;height:12px;border-radius:3px;flex-shrink:0}
+</style>
+</head>
+<body>
+
+<h1>Ashiyana Co-Working — Revised Space Plan</h1>
+<p class="subtitle">12 Offices · 6 Desks Each · 40 sq ft / Person · Prayer Room · Lounge &amp; Recreation (Combined)</p>
+
+<!-- KPI cards -->
+<div class="grid">
+  <div class="card highlight">
+    <div class="card-label">Total Offices</div>
+    <div class="card-value">12</div>
+    <div class="card-sub">6 desks per office</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Total Workstations</div>
+    <div class="card-value">72</div>
+    <div class="card-sub">12 × 6 persons</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Office Area (each)</div>
+    <div class="card-value">240 sq ft</div>
+    <div class="card-sub">6 persons × 40 sq ft</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Total Office Area</div>
+    <div class="card-value">2,880 sq ft</div>
+    <div class="card-sub">12 offices × 240 sq ft</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Net Usable Area</div>
+    <div class="card-value">7,500 sq ft</div>
+    <div class="card-sub">From 9,000 sq ft gross</div>
+  </div>
+  <div class="card">
+    <div class="card-label">Remaining Area</div>
+    <div class="card-value">~4,620 sq ft</div>
+    <div class="card-sub">Amenities + support + circulation</div>
+  </div>
+</div>
+
+<!-- Allocation table -->
+<div class="section-title">Full Space Allocation</div>
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Space</th>
+      <th>Qty</th>
+      <th>Unit (sq ft)</th>
+      <th>Total (sq ft)</th>
+      <th>Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1–12</td><td>Private Office (6 desks)</td><td>12</td><td>240</td><td>2,880</td><td><span class="tag tag-office">Office</span></td></tr>
+    <tr><td>13</td><td>Prayer Room</td><td>1</td><td>280</td><td>280</td><td><span class="tag tag-amenity">Amenity</span></td></tr>
+    <tr><td>14</td><td>Lounge &amp; Recreation (combined)</td><td>1</td><td>650</td><td>650</td><td><span class="tag tag-amenity">Amenity</span></td></tr>
+    <tr><td>15</td><td>Meeting Room 1 (8–10 persons)</td><td>1</td><td>320</td><td>320</td><td><span class="tag tag-support">Support</span></td></tr>
+    <tr><td>16</td><td>Meeting Room 2 (10–12 persons)</td><td>1</td><td>400</td><td>400</td><td><span class="tag tag-support">Support</span></td></tr>
+    <tr><td>17</td><td>Reception / Lobby</td><td>1</td><td>280</td><td>280</td><td><span class="tag tag-support">Support</span></td></tr>
+    <tr><td>18</td><td>Kitchen / Pantry + Café Seating</td><td>1</td><td>350</td><td>350</td><td><span class="tag tag-amenity">Amenity</span></td></tr>
+    <tr><td>19</td><td>Gents Toilets</td><td>1</td><td>220</td><td>220</td><td><span class="tag tag-service">Service</span></td></tr>
+    <tr><td>20</td><td>Ladies Toilets</td><td>1</td><td>220</td><td>220</td><td><span class="tag tag-service">Service</span></td></tr>
+    <tr><td>21</td><td>Housekeeping / Storage</td><td>1</td><td>100</td><td>100</td><td><span class="tag tag-service">Service</span></td></tr>
+    <tr><td>22</td><td>Printing / Copy Area</td><td>1</td><td>80</td><td>80</td><td><span class="tag tag-support">Support</span></td></tr>
+    <tr><td>—</td><td>Circulation &amp; Corridors (15%)</td><td>—</td><td>—</td><td>720</td><td><span class="tag tag-service">Service</span></td></tr>
+    <tr style="background:#f8f8f8;font-weight:700"><td colspan="4">TOTAL</td><td>6,500 sq ft</td><td></td></tr>
+    <tr style="background:#f8f8f8"><td colspan="4" style="color:#6b6b73;font-size:.75rem">Buffer / flexible open area</td><td style="color:#6b6b73;font-size:.75rem">~1,000 sq ft</td><td></td></tr>
+  </tbody>
+</table>
+
+<!-- Schematic floor plan -->
+<div class="section-title">Schematic Layout (not to scale)</div>
+<div class="floor-wrap">
+  <svg viewBox="0 0 780 520" width="100%" xmlns="http://www.w3.org/2000/svg" style="max-width:780px;display:block;margin:0 auto">
+
+    <!-- Floor outline -->
+    <rect x="10" y="10" width="760" height="500" rx="6" fill="#f7f7f7" stroke="#ccc" stroke-width="2"/>
+
+    <!-- Row 1: Offices 1–6 (top row) -->
+    <rect x="20" y="20" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="75" y="62" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 1</text>
+    <text x="75" y="76" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="138" y="20" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="193" y="62" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 2</text>
+    <text x="193" y="76" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="256" y="20" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="311" y="62" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 3</text>
+    <text x="311" y="76" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="374" y="20" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="429" y="62" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 4</text>
+    <text x="429" y="76" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="492" y="20" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="547" y="62" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 5</text>
+    <text x="547" y="76" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="610" y="20" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="665" y="62" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 6</text>
+    <text x="665" y="76" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <!-- Corridor 1 -->
+    <rect x="20" y="118" width="700" height="18" rx="3" fill="#e8e8e8"/>
+    <text x="370" y="131" text-anchor="middle" font-size="9" fill="#888">CORRIDOR</text>
+
+    <!-- Row 2: Offices 7–12 -->
+    <rect x="20" y="144" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="75" y="186" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 7</text>
+    <text x="75" y="200" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="138" y="144" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="193" y="186" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 8</text>
+    <text x="193" y="200" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="256" y="144" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="311" y="186" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 9</text>
+    <text x="311" y="200" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="374" y="144" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="429" y="186" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 10</text>
+    <text x="429" y="200" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="492" y="144" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="547" y="186" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 11</text>
+    <text x="547" y="200" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <rect x="610" y="144" width="110" height="90" rx="4" fill="#d4edda" stroke="#5aa05a" stroke-width="1.5"/>
+    <text x="665" y="186" text-anchor="middle" font-size="10" fill="#2d7a2d" font-weight="600">OFFICE 12</text>
+    <text x="665" y="200" text-anchor="middle" font-size="9" fill="#2d7a2d">6 desks</text>
+
+    <!-- Corridor 2 -->
+    <rect x="20" y="242" width="700" height="18" rx="3" fill="#e8e8e8"/>
+    <text x="370" y="255" text-anchor="middle" font-size="9" fill="#888">CORRIDOR</text>
+
+    <!-- Row 3: Amenities & Support -->
+    <!-- Lounge & Recreation (large, combined) -->
+    <rect x="20" y="268" width="220" height="120" rx="4" fill="#fef3e2" stroke="#d48a00" stroke-width="1.5"/>
+    <text x="130" y="320" text-anchor="middle" font-size="10" fill="#a05a00" font-weight="600">LOUNGE &amp;</text>
+    <text x="130" y="334" text-anchor="middle" font-size="10" fill="#a05a00" font-weight="600">RECREATION</text>
+    <text x="130" y="350" text-anchor="middle" font-size="9" fill="#a05a00">650 sq ft · combined</text>
+
+    <!-- Prayer Room -->
+    <rect x="248" y="268" width="118" height="120" rx="4" fill="#fef3e2" stroke="#d48a00" stroke-width="1.5"/>
+    <text x="307" y="320" text-anchor="middle" font-size="10" fill="#a05a00" font-weight="600">PRAYER</text>
+    <text x="307" y="334" text-anchor="middle" font-size="10" fill="#a05a00" font-weight="600">ROOM</text>
+    <text x="307" y="350" text-anchor="middle" font-size="9" fill="#a05a00">280 sq ft</text>
+
+    <!-- Meeting Room 1 -->
+    <rect x="374" y="268" width="110" height="56" rx="4" fill="#dce8f8" stroke="#4a70b8" stroke-width="1.5"/>
+    <text x="429" y="292" text-anchor="middle" font-size="10" fill="#2d4d8a" font-weight="600">MEETING 1</text>
+    <text x="429" y="306" text-anchor="middle" font-size="9" fill="#2d4d8a">8–10 persons</text>
+
+    <!-- Meeting Room 2 -->
+    <rect x="492" y="268" width="110" height="56" rx="4" fill="#dce8f8" stroke="#4a70b8" stroke-width="1.5"/>
+    <text x="547" y="292" text-anchor="middle" font-size="10" fill="#2d4d8a" font-weight="600">MEETING 2</text>
+    <text x="547" y="306" text-anchor="middle" font-size="9" fill="#2d4d8a">10–12 persons</text>
+
+    <!-- Reception -->
+    <rect x="610" y="268" width="110" height="56" rx="4" fill="#dce8f8" stroke="#4a70b8" stroke-width="1.5"/>
+    <text x="665" y="292" text-anchor="middle" font-size="10" fill="#2d4d8a" font-weight="600">RECEPTION</text>
+    <text x="665" y="306" text-anchor="middle" font-size="9" fill="#2d4d8a">280 sq ft</text>
+
+    <!-- Toilets row -->
+    <rect x="374" y="332" width="110" height="56" rx="4" fill="#f0e8f8" stroke="#8a4ab8" stroke-width="1.5"/>
+    <text x="429" y="356" text-anchor="middle" font-size="10" fill="#6a2d8a" font-weight="600">GENTS WC</text>
+    <text x="429" y="370" text-anchor="middle" font-size="9" fill="#6a2d8a">220 sq ft</text>
+
+    <rect x="492" y="332" width="110" height="56" rx="4" fill="#f0e8f8" stroke="#8a4ab8" stroke-width="1.5"/>
+    <text x="547" y="356" text-anchor="middle" font-size="10" fill="#6a2d8a" font-weight="600">LADIES WC</text>
+    <text x="547" y="370" text-anchor="middle" font-size="9" fill="#6a2d8a">220 sq ft</text>
+
+    <rect x="610" y="332" width="110" height="56" rx="4" fill="#f0e8f8" stroke="#8a4ab8" stroke-width="1.5"/>
+    <text x="665" y="356" text-anchor="middle" font-size="10" fill="#6a2d8a" font-weight="600">HOUSEKEEPING</text>
+    <text x="665" y="370" text-anchor="middle" font-size="9" fill="#6a2d8a">100 sq ft</text>
+
+    <!-- Corridor 3 -->
+    <rect x="20" y="396" width="700" height="16" rx="3" fill="#e8e8e8"/>
+    <text x="370" y="408" text-anchor="middle" font-size="9" fill="#888">CORRIDOR</text>
+
+    <!-- Row 4: Kitchen, Printing, Flexible -->
+    <rect x="20" y="420" width="200" height="80" rx="4" fill="#fef3e2" stroke="#d48a00" stroke-width="1.5"/>
+    <text x="120" y="456" text-anchor="middle" font-size="10" fill="#a05a00" font-weight="600">KITCHEN / PANTRY</text>
+    <text x="120" y="470" text-anchor="middle" font-size="9" fill="#a05a00">+ Café Seating · 350 sq ft</text>
+
+    <rect x="228" y="420" width="138" height="80" rx="4" fill="#dce8f8" stroke="#4a70b8" stroke-width="1.5"/>
+    <text x="297" y="456" text-anchor="middle" font-size="10" fill="#2d4d8a" font-weight="600">PRINTING</text>
+    <text x="297" y="470" text-anchor="middle" font-size="9" fill="#2d4d8a">80 sq ft</text>
+
+    <rect x="374" y="420" width="346" height="80" rx="4" fill="#f0f0f0" stroke="#aaa" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <text x="547" y="456" text-anchor="middle" font-size="10" fill="#666" font-weight="600">FLEXIBLE / OPEN BUFFER</text>
+    <text x="547" y="470" text-anchor="middle" font-size="9" fill="#888">~1,000 sq ft · hot-desking or expansion</text>
+
+  </svg>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#d4edda;border:1.5px solid #5aa05a"></div> Private Offices (12)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#fef3e2;border:1.5px solid #d48a00"></div> Amenities</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#dce8f8;border:1.5px solid #4a70b8"></div> Support Spaces</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#f0e8f8;border:1.5px solid #8a4ab8"></div> Services / WC</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#f0f0f0;border:1.5px dashed #aaa"></div> Flexible Buffer</div>
+  </div>
+</div>
+
+<!-- Data block -->
+<div class="section-title">Spatial Allocation Data Block</div>
+<table>
+  <thead><tr><th colspan="2">Project Data</th></tr></thead>
+  <tbody>
+    <tr><td>Project Name</td><td>Ashiyana Co-Working Space</td></tr>
+    <tr><td>Total Area</td><td>9,000 sq ft</td></tr>
+    <tr><td>Net Usable Area</td><td>~7,500 sq ft</td></tr>
+    <tr><td>Standard Enclosed Offices (6-person)</td><td>12 offices · 72 workstations</td></tr>
+    <tr><td>Area per Person</td><td>40 sq ft</td></tr>
+    <tr><td>Area per Office</td><td>240 sq ft</td></tr>
+    <tr><td>Total Office Area</td><td>2,880 sq ft</td></tr>
+    <tr><td>Prayer Room</td><td>1 · 280 sq ft</td></tr>
+    <tr><td>Lounge &amp; Recreation Area</td><td>1 (grouped / combined) · 650 sq ft</td></tr>
+    <tr><td>Meeting Room 1</td><td>1 · 8–10 persons · 320 sq ft</td></tr>
+    <tr><td>Meeting Room 2</td><td>1 · 10–12 persons · 400 sq ft</td></tr>
+    <tr><td>Kitchen / Pantry + Café</td><td>1 · 350 sq ft</td></tr>
+    <tr><td>Toilets (Gents + Ladies)</td><td>440 sq ft</td></tr>
+    <tr><td>Reception / Lobby</td><td>280 sq ft</td></tr>
+    <tr><td>Circulation &amp; Corridors</td><td>~720 sq ft (15%)</td></tr>
+    <tr><td>Flexible / Open Buffer</td><td>~1,000 sq ft</td></tr>
+    <tr style="font-weight:700;background:#f8f8f8"><td>Total Amenity Capacity</td><td>72 workstations (enclosed offices only)</td></tr>
+  </tbody>
+</table>
+
+</body>
+</html>
